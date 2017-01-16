@@ -18,6 +18,7 @@
 (load "base-init")
 (load "keybind-init")
 (load "gtags-init")
+(load "markdown-init")
 (when window-system
   (load "font-init")
   (load "window-init")
@@ -31,6 +32,6 @@
     ("c7a9a68bd07e38620a5508fef62ec079d274475c8f92d75ed0c33c45fbe306bc" default)))
  '(package-selected-packages
    (quote
-    (exec-path-from-shell yaml-mode color-theme monokai-theme))))
+    (markdown-mode exec-path-from-shell yaml-mode color-theme monokai-theme))))
 (custom-set-faces
  )
