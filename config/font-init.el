@@ -1,7 +1,13 @@
 (when (equal system-type 'darwin)
-  (set-default-font "VL Gothic-16"))
+  (setq default-frame-alist
+        (append '((font . "VL Gothic-16"))
+                default-frame-alist)))
+
 (when (equal system-type 'gnu/linux)
-  (set-default-font "VL Gothic-11"))
+  (setq default-frame-alist
+        (append '((font . "VL Gothic-11"))
+                default-frame-alist)))
+
 (set-fontset-font (frame-parameter nil 'font)
                   'japanese-jisx0208
                   '("VL Gothic" . "unicode-bmp"))
