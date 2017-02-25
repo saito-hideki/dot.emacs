@@ -12,6 +12,7 @@
 
 (global-hl-line-mode t)
 (global-linum-mode t)
+(setq linum-format "%05d|")
 ;(global-whitespace-mode 1)
 
 (tool-bar-mode -1)
