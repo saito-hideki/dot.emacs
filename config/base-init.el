@@ -2,6 +2,10 @@
 
 (setq delete-auto-save-files t)
 
+(prefer-coding-system 'utf-8)
+(setq coding-system-for-read 'utf-8)
+(setq coding-system-for-write 'utf-8)
+
 (setq eol-mnemonic-dos "(CRLF)")
 (setq eol-mnemonic-mac "(CR)")
 (setq eol-mnemonic-unix "(LF)")

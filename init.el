@@ -4,7 +4,7 @@
       (append (list nil
 		    (expand-file-name "~/.emacs.d/config")
 		    (expand-file-name "~/.emacs.d/elpa")
-            (expand-file-name "/usr/local/share/gtags")
+            ;;(expand-file-name "/usr/local/share/gtags")
 		    ) load-path))
 
 (setq package-archives
@@ -39,7 +39,7 @@
     ("c7a9a68bd07e38620a5508fef62ec079d274475c8f92d75ed0c33c45fbe306bc" default)))
  '(package-selected-packages
    (quote
-    (dired-toggle flymake-cursor jedi markdown-mode exec-path-from-shell yaml-mode color-theme monokai-theme))))
+    (auto-virtualenvwrapper flycheck-pycheckers flycheck python dired-toggle flymake-cursor jedi markdown-mode exec-path-from-shell yaml-mode color-theme monokai-theme))))
 (custom-set-faces
  ;; custom-set-faces was added by Custom.
  ;; If you edit it by hand, you could mess it up, so be careful.
